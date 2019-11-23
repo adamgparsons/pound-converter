@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+body {
+  font-family: "Ubuntu";
+  background-color: #19a974;
+  color: #333333;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  margin-left: 10vh;
+}
+
+section p {
+  font-size: 144px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 40px;
+}
+
+nav a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 64px;
+  color: #333333;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 4px solid transparent;
+}
+
+nav a.selected,
+nav a:hover {
+  border: 4px solid #333333;
+}
+
+.not-bold {
+  font-weight: 400;
+}
